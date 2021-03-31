@@ -9,14 +9,14 @@ setuptools.setup(
     name="redshift_ml_demos",
     version="0.0.1",
 
-    description="An empty CDK Python app",
+    description="redshift-ml-demos",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
     author="author",
 
-    package_dir={"": "redshift_ml_demos"},
-    packages=setuptools.find_packages(where="redshift_ml_demos"),
+    package_dir={"": "stacks"},
+    packages=setuptools.find_packages(where="stacks"),
 
     install_requires=[
         "aws-cdk.core==1.92.0",
